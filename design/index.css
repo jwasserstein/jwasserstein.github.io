@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.container {
+    width: 100%;
+    padding: 0 200px;
+}
+
+.main {
+    min-height: 100vh;
+    background-color: #F7ECFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    padding-bottom: 75px;
+}
+
+.main img {
+    width: 300px;
+    border-radius: 50%;
+    margin-top: 100px;
+}
+
+.main .name {
+    font-weight: 500;
+    font-size: 48px;
+    margin: 72px 0 0 0;
+}
+
+.main .jobtitle {
+    margin: 0;
+    font-weight: 300;
+    font-size: 24px;
+}
+
+.main .icons {
+    font-size: 24px;
+    margin: 22px 0 7px 0;
+}
+
+.main .icons i {
+    margin: 0 5px;
+    color: black;
+    text-decoration: none;
+}
+
+.main .icons i:hover {
+    color: #808080;
+}
+
+.email, .phone {
+    margin: 0;
+}
+
+.aboutArrow {
+    position: absolute;
+    bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-decoration: none;
+}
+
+.aboutArrow p {
+    font-size: 14px;
+    color: rgba(0, 0, 0, .35);
+    margin: 0;
+}
+
+.aboutArrow div {
+    transform: rotate(45deg);
+    border-bottom: 1px solid rgba(0, 0, 0, .35);
+    border-right: 1px solid rgba(0, 0, 0, .35);
+    width: 10px;
+    height: 10px;
+}
