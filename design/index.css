@@ -11,14 +11,22 @@ body {
     font-weight: 300;
 }
 
-.container {
+section {
     width: 100%;
-    padding: 0 200px;
+}
+
+.purple {
+    background-color: #F7ECFF;
+}
+
+.container {
+    width: 90%;
+    max-width: 1300px;
+    margin: auto;
 }
 
 .main {
     min-height: 100vh;
-    background-color: #F7ECFF;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -28,7 +36,8 @@ body {
 }
 
 .main img {
-    width: 300px;
+    width: 78%;
+    max-width: 300px;
     border-radius: 50%;
     margin-top: 100px;
 }
@@ -46,12 +55,12 @@ body {
 }
 
 .main .icons {
-    font-size: 24px;
+    font-size: 28px;
     margin: 22px 0 7px 0;
 }
 
 .main .icons i {
-    margin: 0 5px;
+    margin: 0 10px;
     color: black;
     text-decoration: none;
 }
@@ -80,10 +89,42 @@ body {
     margin: 0;
 }
 
+.aboutArrow:hover p {
+    color: rgba(0, 0, 0, .65);
+}
+
 .aboutArrow div {
     transform: rotate(45deg);
     border-bottom: 1px solid rgba(0, 0, 0, .35);
     border-right: 1px solid rgba(0, 0, 0, .35);
     width: 10px;
     height: 10px;
+}
+
+.aboutArrow:hover div {
+    border-bottom: 1px solid rgba(0, 0, 0, .65);
+    border-right: 1px solid rgba(0, 0, 0, .65);
+}
+
+@media (max-width: 900px){
+    .main img {
+        margin-top: 53px;
+    }
+
+    .main .name {
+        font-size: 28px;
+        margin-top: 35px;
+    }
+
+    .main .jobtitle {
+        font-size: 18px;
+    }
+
+    /* .main .icons {
+        font-size: 28px;
+    } */
+
+    /* .main .icons i {
+        margin: 0 10px;
+    } */
 }

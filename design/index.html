@@ -4,23 +4,31 @@
         <title>Wasserstein | Portfolio</title>
         <link rel='stylesheet' type='text/css' href='index.css' />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+        <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+        <meta charset="utf-8"/>
     </head>
     <body>
-        <section class="main container">
-            <img src='../images/me.JPG' alt='A picture of me' />
-            <h1 class='name'>JUSTIN WASSERSTEIN</h1>
-            <p class='jobtitle'>Mechanical Engineer -> Web Developer</p>
-            <div class='icons'>
-                <a href='#'><i class="fab fa-linkedin"></i></a>
-                <a href='#'><i class="fab fa-github"></i></a>
-                <a href='#'><i class="fab fa-facebook"></i></a>
+        <section class='purple'>
+            <div  class="main container">
+                <img src='../images/me.JPG' alt='A picture of me' />
+                <h1 class='name'>JUSTIN WASSERSTEIN</h1>
+                <p class='jobtitle'>Mechanical Engineer <i class="fas fa-arrow-right"></i> Web Developer</p>
+                <div class='icons'>
+                    <a href='#'><i class="fab fa-linkedin"></i></a>
+                    <a href='#'><i class="fab fa-github"></i></a>
+                    <a href='#'><i class="fab fa-facebook"></i></a>
+                </div>
+                <p class='email'>justin.wasserstein@gmail.com</p>
+                <p class='phone'>(860) 299-5554</p>
+                <a class='aboutArrow' href='#'>
+                    <p>About Me</p>
+                    <div></div>
+                </a>
             </div>
-            <p class='email'>justin.wasserstein@gmail.com</p>
-            <p class='phone'>(860) 299-5554</p>
-            <a class='aboutArrow' href='#'>
-                <p>About Me</p>
-                <div></div>
-            </a>
         </section>
+        <script type='text/javascript'>
+            const main = document.querySelector('.main');
+            main.style.minHeight = `${window.innerHeight}px`;
+        </script>
     </body>
 </html>
