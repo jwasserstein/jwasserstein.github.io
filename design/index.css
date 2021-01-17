@@ -143,6 +143,22 @@ section {
     margin: 0 0 75px 0;
 }
 
+@media (max-width: 900px){
+    .sectionTitle {
+        margin: 40px 0 15px 0;
+        font-size: 28px;
+    }
+
+    .aboutIntro {
+        font-size: 20px;
+    }
+    
+    .aboutText {
+        font-size: 16px;
+        margin-bottom: 40px;
+    }
+}
+
 /* End About */
 
 /* Begin Skills */
@@ -158,7 +174,8 @@ section {
     max-width: 600px;
     display: flex;
     flex-wrap: wrap;
-    padding-bottom: 75px;
+    justify-content: center;
+    padding-bottom: 40px;
 }
 
 .skillsContainer div {
@@ -167,6 +184,13 @@ section {
     border: 1px solid rgba(0, 0, 0, .1);
     border-radius: 5px;
     margin: 10px;
+}
+
+@media (max-width: 900px){
+    .skillsContainer div {
+        padding: 10px 15px;
+        font-size: 16px;
+    }
 }
 
 /* End Skills */
@@ -196,6 +220,7 @@ section {
     margin: 0 20px;
     position: relative;
     flex-grow: 1;
+    padding-bottom: 30px;
 }
 
 .projectTextContainer h3 {
@@ -222,6 +247,34 @@ section {
     position: absolute;
     left: 0;
     bottom: 10px;
+}
+
+.projectLinks span {
+    font-size: 14px;
+}
+
+@media (max-width: 900px){
+    .project {
+        flex-direction: column;
+        width: 100%;
+        max-width: 330px;
+    }
+
+    .project img {
+        width: 100%;
+    }
+
+    .projectTextContainer {
+        margin: 0 7px;
+    }
+
+    .projectLinks {
+        font-size: 16px;
+    }
+
+    .projectLinks span {
+        font-size: 12px;
+    }
 }
 
 /* End Projects */
