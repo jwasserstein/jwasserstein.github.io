@@ -13,11 +13,19 @@ body {
 
 section {
     width: 100%;
+    padding: 75px 0;
+}
+
+@media (max-width: 900px){
+    section {
+        padding: 40px 0;
+    }
 }
 
 /* Begin Main */
 .main {
     background-color: #F7ECFF;
+    padding: 0;
 }
 
 .container {
@@ -30,7 +38,7 @@ section {
     align-items: center;
 }
 
-.main .container{
+.main .container {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -47,30 +55,30 @@ section {
     margin: 100px 0 70px 0;
 }
 
-.main .name {
+.name {
     font-weight: 500;
     font-size: 48px;
     margin: 0;
 }
 
-.main .jobTitle {
+.jobTitle {
     margin: 0;
     font-weight: 300;
     font-size: 24px;
 }
 
-.main .icons {
+.icons {
     font-size: 28px;
     margin: 15px 0 10px 0;
 }
 
-.main .icons i {
+.icons i {
     padding: 0 10px;
     color: black;
     text-decoration: none;
 }
 
-.main .icons i:hover {
+.icons i:hover {
     color: #808080;
 }
 
@@ -123,6 +131,10 @@ section {
     .main .jobTitle {
         font-size: 18px;
     }
+
+    .container {
+        max-width: 600px;
+    }
 }
 
 /* End Main */
@@ -132,7 +144,7 @@ section {
     font-size: 36px;
     color: #8333BD;
     font-weight: 300;
-    margin: 75px 0 30px 0;
+    margin: 0 0 30px 0;
     text-align: center;
 }
 
@@ -144,12 +156,12 @@ section {
 
 .aboutText {
     text-align: center;
-    margin: 0 0 75px 0;
+    margin: 0;
 }
 
 @media (max-width: 900px){
     .sectionTitle {
-        margin: 40px 0 15px 0;
+        margin-bottom: 15px;
         font-size: 28px;
     }
 
@@ -159,7 +171,6 @@ section {
     
     .aboutText {
         font-size: 16px;
-        margin-bottom: 40px;
     }
 }
 
@@ -167,7 +178,7 @@ section {
 
 /* Begin Skills */
 
-.skills {
+.gray {
     background-color: #F5F5F5;
     border-top: 1px solid rgba(0, 0, 0, .25);
 }
@@ -179,7 +190,6 @@ section {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding-bottom: 40px;
 }
 
 .skillsContainer div {
@@ -211,6 +221,10 @@ section {
     overflow: hidden;
     margin-bottom: 40px;
     width: 100%;
+}
+
+.project:last-of-type {
+    margin-bottom: 0;
 }
 
 .project .image {
@@ -268,15 +282,19 @@ section {
     .project {
         flex-direction: column;
         width: 100%;
-        max-width: 450px;
+        margin-bottom: 20px;
     }
 
-    .project img {
-        width: 100%;
+    .project .image {
+        padding-bottom: 70%;
     }
 
     .projectTextContainer {
         margin: 0 7px;
+    }
+
+    .projectTextContainer p {
+        font-size: 14px;
     }
 
     .projectLinks {
@@ -292,3 +310,100 @@ section {
     }
 }
 /* End Projects */
+
+/* Begin Experience */
+
+.job {
+    width: 100%;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, .25);
+    border-radius: 7px;
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+
+.job:last-of-type {
+    margin-bottom: 0;
+}
+
+.jobHeader {
+    background-color: #F7ECFF;
+    border-bottom: 1px solid rgba(0, 0, 0, .25);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px;
+    font-size: 24px;
+}
+
+.jobHeader div {
+    text-align: center;
+}
+
+.jobHeader div:first-of-type {
+    text-align: left;
+    font-weight: 400;
+    flex-grow: 1;
+    flex-basis: 33%;
+}
+
+.jobHeader div:last-of-type {
+    text-align: right;
+    flex-grow: 1;
+    flex-basis: 33%;
+}
+
+.jobHeader div:last-of-type {
+    font-size: 18px;
+}
+
+.jobText {
+    padding: 15px;
+    margin: 0;
+}
+
+@media (max-width: 900px){
+    .job {
+        margin-bottom: 20px;
+    }
+
+    .jobHeader {
+        flex-direction: column;
+        font-size: 18px;
+    }
+
+    .jobHeader div:last-of-type {
+        font-size: 14px;
+    }
+}
+
+/* End Experience */
+
+/* Begin Contact */
+
+.contact {
+    background-color: #F7ECFF;
+    border-top: 1px solid rgba(0, 0, 0, .25);
+}
+
+/* End Contanct */
+
+/* Begin Copyright */
+
+.copyright {
+    padding: 45px 0;
+}
+
+.copyright p {
+    text-align: center;
+    margin: 0;
+}
+
+@media (max-width: 900px){
+    .copyright {
+        padding: 30px 0;
+    }
+}
+
+/* End Copyright */
