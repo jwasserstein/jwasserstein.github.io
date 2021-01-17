@@ -24,6 +24,10 @@ section {
     width: 90%;
     max-width: 1030px;
     margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 .main .container{
@@ -206,10 +210,17 @@ section {
     border-radius: 7px;
     overflow: hidden;
     margin-bottom: 40px;
+    width: 100%;
 }
 
-.project img {
-    width: 330px;
+.project .image {
+    flex-basis: 330px;
+    flex-shrink: 0;
+    min-height: 330px;
+    overflow: hidden;
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .projectTextContainer {
@@ -240,7 +251,7 @@ section {
 }
 
 .projectTextContainer a {
-    margin-right: 5px;
+    margin: 0 3px;
 }
 
 .projectLinks {
@@ -257,7 +268,7 @@ section {
     .project {
         flex-direction: column;
         width: 100%;
-        max-width: 330px;
+        max-width: 450px;
     }
 
     .project img {
@@ -275,6 +286,9 @@ section {
     .projectLinks span {
         font-size: 12px;
     }
-}
 
+    .projectTextContainer a {
+        margin: 0 1px;
+    }
+}
 /* End Projects */
