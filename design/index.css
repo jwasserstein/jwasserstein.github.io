@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
 
 * {
     box-sizing: border-box;
@@ -15,17 +15,18 @@ section {
     width: 100%;
 }
 
-.purple {
+/* Begin Main */
+.main {
     background-color: #F7ECFF;
 }
 
 .container {
     width: 90%;
-    max-width: 1300px;
+    max-width: 1030px;
     margin: auto;
 }
 
-.main {
+.main .container{
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -39,16 +40,16 @@ section {
     width: 78%;
     max-width: 300px;
     border-radius: 50%;
-    margin-top: 100px;
+    margin: 100px 0 70px 0;
 }
 
 .main .name {
     font-weight: 500;
     font-size: 48px;
-    margin: 72px 0 0 0;
+    margin: 0;
 }
 
-.main .jobtitle {
+.main .jobTitle {
     margin: 0;
     font-weight: 300;
     font-size: 24px;
@@ -56,11 +57,11 @@ section {
 
 .main .icons {
     font-size: 28px;
-    margin: 22px 0 7px 0;
+    margin: 15px 0 10px 0;
 }
 
 .main .icons i {
-    margin: 0 10px;
+    padding: 0 10px;
     color: black;
     text-decoration: none;
 }
@@ -113,18 +114,114 @@ section {
 
     .main .name {
         font-size: 28px;
-        margin-top: 35px;
     }
 
-    .main .jobtitle {
+    .main .jobTitle {
         font-size: 18px;
     }
-
-    /* .main .icons {
-        font-size: 28px;
-    } */
-
-    /* .main .icons i {
-        margin: 0 10px;
-    } */
 }
+
+/* End Main */
+
+/* Begin About */
+.sectionTitle {
+    font-size: 36px;
+    color: #8333BD;
+    font-weight: 300;
+    margin: 75px 0 30px 0;
+    text-align: center;
+}
+
+.aboutIntro {
+    text-align: center;
+    font-size: 24px;
+    margin: 0;
+}
+
+.aboutText {
+    text-align: center;
+    margin: 0 0 75px 0;
+}
+
+/* End About */
+
+/* Begin Skills */
+
+.skills {
+    background-color: #F5F5F5;
+    border-top: 1px solid rgba(0, 0, 0, .25);
+}
+
+.skillsContainer {
+    margin: auto;
+    width: 90%;
+    max-width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 75px;
+}
+
+.skillsContainer div {
+    padding: 10px 20px;
+    background-color: #F7ECFF;
+    border: 1px solid rgba(0, 0, 0, .1);
+    border-radius: 5px;
+    margin: 10px;
+}
+
+/* End Skills */
+
+/* Begin Projects */
+
+.project {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+    border: 1px solid rgb(0, 0, 0, .15);
+    border-radius: 7px;
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+
+.project img {
+    width: 330px;
+}
+
+.projectTextContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    margin: 0 20px;
+    position: relative;
+    flex-grow: 1;
+}
+
+.projectTextContainer h3 {
+    margin: 13px 0 7px 0;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.projectTextContainer p {
+    font-size: 16px;
+    margin: 7px 0;
+}
+
+.projectTextContainer p strong {
+    font-weight: 400;
+}
+
+.projectTextContainer a {
+    margin-right: 5px;
+}
+
+.projectLinks {
+    position: absolute;
+    left: 0;
+    bottom: 10px;
+}
+
+/* End Projects */

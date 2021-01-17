@@ -8,11 +8,11 @@
         <meta charset="utf-8"/>
     </head>
     <body>
-        <section class='purple'>
-            <div  class="main container">
+        <section class='main'>
+            <div class='container'>
                 <img src='../images/me.JPG' alt='A picture of me' />
                 <h1 class='name'>JUSTIN WASSERSTEIN</h1>
-                <p class='jobtitle'>Mechanical Engineer <i class="fas fa-arrow-right"></i> Web Developer</p>
+                <p class='jobTitle'>Mechanical Engineer <i class="fas fa-arrow-right"></i> Web Developer</p>
                 <div class='icons'>
                     <a href='#'><i class="fab fa-linkedin"></i></a>
                     <a href='#'><i class="fab fa-github"></i></a>
@@ -26,8 +26,140 @@
                 </a>
             </div>
         </section>
+
+        <section class='about'>
+            <div class='container'>
+                <h2 class='sectionTitle'>ABOUT</h2>
+                <p class='aboutIntro'>Hi, I'm Justin! 👋</p>
+                <p class='aboutText'>
+                    I’m a mechanical design engineer with nearly 5 years of experience, 
+                    looking to break into web development. After using COVID-19 stay-at-home 
+                    as an opportunity to learn, I’m looking for my first job!  I used this 
+                    time to learn the MERN stack, but I'm interested in learning about Python, 
+                    Java, C/C++, SQL, or DevOps.  I'm looking for a role where I can continue 
+                    my fast growth, either taking advantage of the skills I've already built 
+                    or allowing me to build new ones.  I'm from Connecticut, but I'd like to 
+                    move to one of the major urban areas such as San Francisco, Seattle, 
+                    Chicago, Boston, New York, DC, Miami, Austin, Denver, or Los Angeles.
+                </p>
+            </div>
+        </section>
+
+        <section class='skills'>
+            <div class='container'>
+                <h2 class='sectionTitle'>SKILLS</h2>
+                <div class='skillsContainer'>
+                    <div>HTML</div>
+                    <div>CSS</div>
+                    <div>Javascript</div>
+                    <div>React</div>
+                    <div>Redux</div>
+                    <div>Node.js</div>
+                    <div>Express</div>
+                    <div>MongoDB</div>
+                    <div>Git</div>
+                    <div>Figma</div>
+                </div>
+            </div>
+        </section>
+
+        <section class='projects'>
+            <div class='container'>
+                <h2 class='sectionTitle'>PROJECTS</h2>
+                <div class='project'>
+                    <img src='../images/bank-of-wasserstein4.png' alt='bank of wasserstein' />
+                    <div class='projectTextContainer'>
+                        <h3>BANK OF WASSERSTEIN</h3>
+                        <p>
+                            BANK OF WASSERSTEIN is a demonstration banking application 
+                            that allows users to create checking, savings, and 
+                            investing accounts, submit deposits and withdrawals, 
+                            and transfer money to other users.  It’s a fullstack 
+                            application that uses React and Redux on the frontend 
+                            and Node.js, Express, and MongoDB on the backend.  It’s 
+                            hosted on Heroku and uses a managed database on MongoDB 
+                            Atlas.  I designed it using Figma.
+                        </p>
+                        <p>
+                            <strong>How to Use:</strong> Sign up for a user account, then 
+                            create a checking, savings, or investing account.
+                        </p>
+                        <p>
+                            <strong>What I Learned:</strong> As this was my first project 
+                            that wasn’t guided by a course, it solidified my knowledge 
+                            in every step of the fullstack application making process, 
+                            including the design and basic HTML/CSS, working with React 
+                            and Redux, creating routes and handling authentication, 
+                            working with the database, and deployment.
+                        </p>
+                        <div class='projectLinks'>
+                            <a href='#'>View Project</a>
+                            <a href='#'>GitHub (frontend)</a>
+                            <a href='#'>GitHub (backend)</a>
+                        </div>
+                    </div>
+                </div>
+                <div class='project'>
+                    <img src='../images/jw-footwear4.png' alt='jw footwear' />
+                    <div class='projectTextContainer'>
+                        <h3>JW Footwear</h3>
+                        <p>
+                            JW Footwear is a demonstration e-commerce application 
+                            that sells shoes.  It allows users to add shoes of 
+                            various sizes to their cart, place orders, view their 
+                            order history, and leave reviews and ratings on products 
+                            they’ve purchased.  I built it using the same MERN stack 
+                            as BANK OF WASSERSTEIN, and it uses the same cloud 
+                            services - Heroku and MongoDB Atlas.
+                        </p>
+                        <p>
+                            <strong>How to Use:</strong> View the various shoes for 
+                            sale, pick a size and add to your cart.  Make an account 
+                            and you’ll be able to checkout with shipping and fake 
+                            payment information.  View your order history in your 
+                            profile by clicking on your account name.
+                        </p>
+                        <p>
+                            <strong>What I Learned:</strong> As this was my second 
+                            application, it was my first opportunity to reuse 
+                            components, adapting them where necessary to my new 
+                            project.  I found it more challenging to make this app 
+                            responsive due to the more complex interface.  This 
+                            application was also generally more complex, with more 
+                            pages, database collections, and components.
+                        </p>
+                        <div class='projectLinks'>
+                            <a href='#'>View Project</a>
+                            <a href='#'>GitHub (frontend)</a>
+                            <a href='#'>GitHub (backend)</a>
+                        </div>
+                    </div>
+                </div>
+                <div class='project'>
+                    <img src='' alt='' style='height: 330px; background-color: gray' />
+                    <div class='projectTextContainer'>
+                        <h3>Placeholder</h3>
+                        <p>
+                            
+                        </p>
+                        <p>
+                            <strong>How to Use:</strong> 
+                        </p>
+                        <p>
+                            <strong>What I Learned:</strong> 
+                        </p>
+                        <div class='projectLinks'>
+                            <a href='#'>View Project</a>
+                            <a href='#'>GitHub (frontend)</a>
+                            <a href='#'>GitHub (backend)</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <script type='text/javascript'>
-            const main = document.querySelector('.main');
+            const main = document.querySelector('.main .container');
             main.style.minHeight = `${window.innerHeight}px`;
         </script>
     </body>
