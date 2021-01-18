@@ -245,7 +245,7 @@ section {
     margin: 0 20px;
     position: relative;
     flex-grow: 1;
-    padding-bottom: 30px;
+    padding-bottom: 31px;
 }
 
 .projectTextContainer h3 {
@@ -272,6 +272,11 @@ section {
     position: absolute;
     left: 0;
     bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
 }
 
 .projectLinks span {
@@ -291,6 +296,7 @@ section {
 
     .projectTextContainer {
         margin: 0 7px;
+        padding-bottom: 70px;
     }
 
     .projectTextContainer p {
@@ -298,6 +304,7 @@ section {
     }
 
     .projectLinks {
+        flex-direction: column;
         font-size: 16px;
     }
 
