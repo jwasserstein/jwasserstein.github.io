@@ -83,7 +83,7 @@ section {
 }
 
 .email, .phone {
-    margin: 0;
+    margin: 0 0 3px 0;
 }
 
 .aboutArrow {
