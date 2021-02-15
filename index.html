@@ -13,7 +13,7 @@
             <div class='container'>
                 <img src='https://jwasserstein.s3.amazonaws.com/me.jpeg' alt='A picture of me' />
                 <h1 class='name'>JUSTIN WASSERSTEIN</h1>
-                <p class='jobTitle'>Mechanical Engineer <span class="iconify" data-icon="dashicons:arrow-right-alt"></span> Software Developer</p>
+                <p class='jobTitle'>Mechanical Engineer <span class="iconify" data-icon="dashicons:arrow-right-alt"></span> Software Engineer</p>
                 <div class='icons'>
                     <a href='https://github.com/jwasserstein' target='_blank'><span class="iconify" data-icon="ant-design:github-filled"></span></a>
                     <a href='https://leetcode.com/jwasserstein/' target='_blank'><span class="iconify" data-icon="cib:leetcode"></span></a>
@@ -37,13 +37,13 @@
                 <p class='aboutText'>
                     I’m a mechanical design engineer with nearly 5 years of experience, 
                     looking to break into software development. After using COVID-19 stay-at-home 
-                    as an opportunity to learn, I’m looking for my first job!  I used this 
+                    as an opportunity to teach myself, I’m looking for my first job!  I used this 
                     time to learn the MERN stack, but I'm interested in learning about Python, 
-                    Java, C/C++, SQL, or DevOps.  I'm looking for a role where I can continue 
-                    my fast growth, either taking advantage of the skills I've already built 
-                    or allowing me to build new ones.  I'm from Connecticut, but I'd like to 
-                    move to one of the major urban areas such as San Francisco, Seattle, 
-                    Chicago, Boston, New York, DC, Miami, Austin, Denver, or Los Angeles.
+                    Java, C/C++, or any other language or technology.  I'm looking for a role where I 
+                    can continue my fast growth, either taking advantage of the skills I've already built 
+                    or allowing me to build new ones.  I'm from Connecticut, but I'd like to use this
+                    career change as an opportunity to move to a major urban area (preferrably in the US),
+                    so I'm very open to relocating for a chance to continue my growth.
                 </p>
             </div>
         </section>
@@ -62,6 +62,7 @@
                     <div>Express</div>
                     <div>MongoDB</div>
                     <div>Git</div>
+                    <div>AWS S3</div>
                     <div>Figma</div>
                 </div>
             </div>
@@ -79,11 +80,11 @@
                             BANK OF WASSERSTEIN is a demonstration banking application 
                             that allows users to create checking, savings, and 
                             investing accounts, submit deposits and withdrawals, 
-                            and transfer money to other users.  It’s a fullstack 
-                            application that uses React and Redux on the frontend 
+                            and transfer money to other users.  It’s a single page, 
+                            fullstack application that uses React and Redux on the frontend 
                             and Node.js, Express, and MongoDB on the backend.  It’s 
-                            hosted on Heroku and uses a managed database on MongoDB 
-                            Atlas.  I designed it using Figma.
+                            hosted on GitHub Pages and Heroku and uses a managed 
+                            database on MongoDB Atlas.  I designed it using Figma.
                         </p>
                         <p>
                             <strong>How to Use:</strong> Sign up for a user account, then 
@@ -98,7 +99,7 @@
                             working with the database, and deployment.
                         </p>
                         <div class='projectLinks'>
-                            <a href='https://bank-of-wasserstein.herokuapp.com/' target='_blank'>View&nbspProject</a>
+                            <a href='https://bow.wasserstein.dev' target='_blank'>View&nbspProject</a>
                             <a href='https://github.com/jwasserstein/bank-of-wasserstein-frontend' target='_blank'>GitHub&nbsp<span>(frontend)</span></a>
                             <a href='https://github.com/jwasserstein/bank-of-wasserstein-backend' target='_blank'>GitHub&nbsp<span>(backend)</span></a>
                         </div>
@@ -115,7 +116,7 @@
                             order history, and leave reviews and ratings on products 
                             they’ve purchased.  I built it using the same MERN stack 
                             as BANK OF WASSERSTEIN, and it uses the same cloud 
-                            services - Heroku and MongoDB Atlas.
+                            services - GitHub Pages, Heroku and MongoDB Atlas.
                         </p>
                         <p>
                             <strong>How to Use:</strong> View the various shoes for 
@@ -128,37 +129,51 @@
                             <strong>What I Learned:</strong> As this was my second 
                             application, I had an opportunity to reuse 
                             components, adapting them where necessary to my new 
-                            project.  I found it more challenging to make this app 
+                            project.  I found it more challenging to make this application
                             responsive due to the more complex interface.  This 
                             application was also generally more complex, with more 
                             pages, database collections, and components.
                         </p>
                         <div class='projectLinks'>
-                            <a href='https://jw-footwear.herokuapp.com/' target='_blank'>View&nbspProject</a>
+                            <a href='https://jwfootwear.wasserstein.dev' target='_blank'>View&nbspProject</a>
                             <a href='https://github.com/jwasserstein/jw-footwear-frontend' target='_blank'>GitHub&nbsp<span>(frontend)</span></a>
                             <a href='https://github.com/jwasserstein/jw-footwear-backend' target='_blank'>GitHub&nbsp<span>(backend)</span></a>
                         </div>
                     </div>
                 </div>
                 <div class='project'>
-                    <div class='image' style='background-color: lightgray; 
-                    text-align: center; line-height: 330px; font-size: 36px; 
-                    color: #5C5C5C;'>Placeholder</div>
+                    <div class='image' style='background-image: url(https://jwasserstein.s3.amazonaws.com/engineroom.png)'></div>
                     <div class='projectTextContainer'>
-                        <h3>Placeholder</h3>
+                        <h3>EngineRoom</h3>
                         <p>
-                            
+                            EngineRoom is a social media application for car enthusiasts.  
+                            It allows users to make posts, make comments, upload pictures 
+                            of their cars, set a profile picture, and find friends who share 
+                            car interests.  It's also a MERN application, with the frontend 
+                            deployed to GitHub Pages, the backend running on Heroku, and user 
+                            images hosted on Amazon S3.
                         </p>
                         <p>
-                            <strong>How to Use:</strong> 
+                            <strong>How to Use:</strong> First, make an account.  You'll 
+                            automatically be friends with a few demo accounts.  You can 
+                            see a list of people you're not already friends with on the 
+                            left, and a list of EngineRoom user's cars on the right.  You 
+                            can make posts, add comments, or like other's posts on your 
+                            feed.  You can also update your profile by clicking on your 
+                            name in the navbar.
                         </p>
                         <p>
-                            <strong>What I Learned:</strong> 
+                            <strong>What I Learned:</strong> This application was the 
+                            most complicated of all, with the most data to keep track
+                            of and generally the most complex logic.  It's also the 
+                            first application I made which allows users to upload their
+                            own images, so I learned how to deal with the AWS SDK 
+                            including authentication and file uploads.
                         </p>
                         <div class='projectLinks'>
-                            <a href='#' target='_blank'>View&nbspProject</a>
-                            <a href='#' target='_blank'>GitHub&nbsp<span>(frontend)</span></a>
-                            <a href='#' target='_blank'>GitHub&nbsp<span>(backend)</span></a>
+                            <a href='https://engineroom.wasserstein.dev' target='_blank'>View&nbspProject</a>
+                            <a href='https://github.com/jwasserstein/engineroom-frontend' target='_blank'>GitHub&nbsp<span>(frontend)</span></a>
+                            <a href='https://github.com/jwasserstein/engineroom-backend' target='_blank'>GitHub&nbsp<span>(backend)</span></a>
                         </div>
                     </div>
                 </div>
@@ -213,19 +228,28 @@
                 <div class='job'>
                     <div class='jobHeader'>
                         <div>UNIVERSITY OF CONNECTICUT</div>
-                        <div>Mechanical Engineering</div>
+                        <div>Mechanical Engineering <span>(B.S.)</span></div>
                         <div>2011 - 2015</div>
                     </div>
-                    <p class='jobText'>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                        sed do eiusmod tempor incididunt ut labore et dolore magna 
-                        aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
-                        ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis 
-                        aute irure dolor in reprehenderit in voluptate velit esse 
-                        cillum dolore eu fugiat nulla pariatur. Excepteur sint 
-                        occaecat cupidatat non proident, sunt in culpa qui officia 
-                        deserunt mollit anim id est laborum.
-                    </p>
+                    <div class='jobText'>
+                        <strong>GPA:</strong> 3.4
+                        <div style='margin-bottom: 5px'>
+                            <h3>Formula SAE</h3>
+                            <p style='font-size: 16px'><em>Team Lead</em> - Driver Controls</p>
+                        </div>
+                        <p>
+                            Competed in a student design competition to design, build, and race a small single-seat 
+                            race car, placing 19th out of 120 teams
+                        </p>
+                        <ul>
+                            <li>
+                                Led the driver controls team which owned braking, steering, and shifting
+                            </li>
+                            <li>
+                                Designed an automated shifting system controlled by an Arduino
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </section>

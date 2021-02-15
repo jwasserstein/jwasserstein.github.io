@@ -16,6 +16,10 @@ section {
     padding: 75px 0;
 }
 
+strong {
+    font-weight: 400;
+}
+
 @media (max-width: 900px){
     section {
         padding: 40px 0;
@@ -263,10 +267,6 @@ section {
     margin: 7px 0;
 }
 
-.projectTextContainer p strong {
-    font-weight: 400;
-}
-
 .projectTextContainer a {
     margin: 0 3px;
 }
@@ -344,7 +344,7 @@ section {
     justify-content: space-between;
     align-items: center;
     padding: 7px;
-    font-size: 24px;
+    font-size: 22px;
 }
 
 .jobHeader div {
@@ -368,8 +368,26 @@ section {
     font-size: 18px;
 }
 
+.jobHeader span {
+    font-size: 14px;
+}
+
 .jobText {
     padding: 15px;
+    margin: 0;
+}
+
+.jobText h3 {
+    font-weight: 400;
+    font-size: 18px;
+    margin: 10px 0 0 0;
+}
+
+.jobText p {
+    margin: 0;
+}
+
+.jobText ul {
     margin: 0;
 }
 
