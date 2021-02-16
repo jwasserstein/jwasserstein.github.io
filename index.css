@@ -355,20 +355,17 @@ strong {
     text-align: left;
     font-weight: 400;
     flex-grow: 1;
-    flex-basis: 33%;
+    flex-basis: 20%;
 }
 
 .jobHeader div:last-of-type {
     text-align: right;
     flex-grow: 1;
-    flex-basis: 33%;
-}
-
-.jobHeader div:last-of-type {
+    flex-basis: 20%;
     font-size: 18px;
 }
 
-.jobHeader span {
+.small {
     font-size: 14px;
 }
 
