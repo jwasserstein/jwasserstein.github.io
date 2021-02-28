@@ -66,27 +66,42 @@ strong {
 }
 
 .jobTitle {
-    margin: 0;
+    margin: 0 0 30px 0;
     font-weight: 300;
     font-size: 24px;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0 0 30px 0;
+}
+
+.icons a {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.icons a:hover {
+    color: #808080;
+}
+
+.icons p {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 300;
 }
 
 .icons .iconify {
     width: 35px;
     height: 35px;
-    color: black;
-}
-
-.icons .iconify:hover {
-    color: #808080;
-}
-
-.icons {
-    margin: 15px 0 10px 0;
-}
-
-.icons a {
-    display: inline-block;
 }
 
 .email, .phone {
