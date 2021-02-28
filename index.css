@@ -157,6 +157,10 @@ strong {
     .container {
         max-width: 600px;
     }
+
+    .icons, .jobTitle {
+        margin-bottom: 15px;
+    }
 }
 
 /* End Main */
